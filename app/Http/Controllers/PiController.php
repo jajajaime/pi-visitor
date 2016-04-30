@@ -32,6 +32,7 @@ class PiController extends Controller
         $new_pi->num = $num;
         $new_pi->k = $k;
         $new_pi->country = GeoIP::getLocation()['country'];
+        $new_pi->ip = GeoIP::getLocation()['ip'];
         $new_pi->save();
 
         $countries = DB::table('pis')
