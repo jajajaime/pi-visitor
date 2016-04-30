@@ -48,13 +48,13 @@ class PiController extends Controller
     
 
     private function bcpi($precision, $num = '', $k = 0){
-        if($precision < 11)
+        if($precision <= 11)
         {
             $num = '';
             $k = 0;
         }
 
-        bcscale($precision + 3);
+        bcscale($precision + 4096);
 
         $limit = ($precision + 3)/14;
 
