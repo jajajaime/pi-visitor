@@ -18,7 +18,7 @@
     <br><br>
 
 
-    <h4>Visitors by country</h4>
+    <h3>Visitors by country</h3>
     <ul>
         @foreach($countries as $country)
             <li>
@@ -29,13 +29,25 @@
 
     <br><br>
 
-    <footer>
+    <div>
         <p>
             This is a test and I do not have any verification that the calculated decimals are correct or what the limit is for the calculation.
             <br>
             This is done using the <a href="https://en.wikipedia.org/wiki/Bailey%E2%80%93Borwein%E2%80%93Plouffe_formula" target="_blank">BBP</a> formula.
         </p>
-    </footer>
+    </div>
+
+    {{-- <br><br>
+
+     <div>
+        <h4>Changelog</h4>
+        <h4>v0.1 (2016-04-30)</h4>
+        <ul>
+            <li>
+                First version.
+            </li>
+        </ul>
+    </div> --}}
 
 </body>
 </html>
