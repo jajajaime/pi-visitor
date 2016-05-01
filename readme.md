@@ -1,6 +1,7 @@
-# Website that calculates the next decimal of pi with every new visitor
+# Pi decimals by visitor
 
-Basically what the title says. Demo page at [https://devandlife.com/pi-visitor](https://devandlife.com/pi-visitor)
+Simple website that calculates the next decimal of pi with every new visitor.
+Demo page at [https://devandlife.com/pi-visitor](https://devandlife.com/pi-visitor)
 
 ## Built with
 
