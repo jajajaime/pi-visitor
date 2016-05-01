@@ -33,7 +33,7 @@
         <p>
             This is a test and I do not have any verification that the calculated decimals are correct or what the limit is for the calculation.
             <br>
-            This is done using the <a href="https://en.wikipedia.org/wiki/Bailey%E2%80%93Borwein%E2%80%93Plouffe_formula" target="_blank">BBP</a> formula.
+            The source code can be found at <a href="https://github.com/jajajaime/pi-visitor">https://github.com/jajajaime/pi-visitor</a>.
         </p>
     </div>
 
