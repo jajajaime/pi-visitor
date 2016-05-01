@@ -5,8 +5,9 @@ Basically what the title says. Demo page at [https://devandlife.com/pi-visitor](
 ## Built with
 
 - [Laravel 5.2.31](https://laravel.com/)
-- Algorithm that I found on [this blog from the Netherlands](http://www.pfz.nl/forum/topic/31-pi-calculator-bbp-algorithm/page__view__findpost__p__257) and that I modified to calculate the next decimal with every visit by saving the previous calculation to the database.
 - [GeoIP for Laravel 5](https://github.com/Torann/laravel-geoip) for getting the visitor's country by IP.
+- Using an algorithm implementation (don't know which one and the person didn't specify) found on [this blog in Dutch](http://www.pfz.nl/forum/topic/31-pi-calculator-bbp-algorithm/page__view__findpost__p__257) and that I modified to calculate the next decimal with every visit by saving the previous calculation to the database, while increasing the precision.
+
 
 
 ## Using
